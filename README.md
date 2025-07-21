@@ -14,7 +14,7 @@
 2) В командной строке нужно написать `pip install -r libs.txt`. После установки библиотек *libs.txt* можно удалить.
 3) Инструкция для работы с терминальным режимом скрипта (`danbooru_downloader.py`):
    * Открыть settings.json
-   * Указать ваш username, api_key и путь до chromedriver.exe. Например, "C:\\Users\\%username%\\Desktop\\Danbooru Downloader v2\\chromedriver\\chromedriver.exe" (**ОБЯЗАТЕЛЬНО** ставить \\, а не \, иначе скрипт работать *не* будет)
+   * Указать ваш username, api_key и путь до chromedriver.exe. Например, "C:/Users/%username%/Desktop/Danbooru Downloader v2/chromedriver/chromedriver.exe" (**ОБЯЗАТЕЛЬНО** ставить одиночный слэш ИЛИ двойной бэкслэш. Одиночный бэкслэш не сгодится, иначе скрипт работать *не будет*)
    * Открыть links.txt и добавить туда ссылки на посты.
    * Запустить `danbooru_downloader.py` двойным кликом
    * Откроется chromedriver с просьбой пройти Cloudflare капчу, вам нужно её пройти, после чего в терминале нажать Enter
